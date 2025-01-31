@@ -7,8 +7,8 @@ const numberTwo = "2.30";
 // add those two numbers and show the result
 // you cannot touch line 1 neither line 2
 
-const sum = +numberOne + +numberTwo;
-console.log(sum);
+const sum = Number(numberOne) + Number(numberTwo);
+console.log("sum",sum);
 
 // --------------------------------------
 // Exercise 4 - Add the numbers and the total with 2 decimals
@@ -16,7 +16,8 @@ console.log(sum);
 const anotherNumberOne = "1.10";
 const anotherNumberTwo = "2.30";
 
-const anotherSum = +anotherNumberOne + +anotherNumberTwo;
+const anotherSum = Number(anotherNumberOne) + Number(anotherNumberTwo);
+
 console.log(anotherSum.toFixed(2));
 
 // --------------------------------------
